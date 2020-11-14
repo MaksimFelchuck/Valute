@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+</head>
+<body>
+<div class="container">
+    <h3>Введите дату, за которую необходиимо получить данные по курсу валют в формате: дд/мм/гггг<br>
+        или выберите из готовых.</h3>
+    <form action="/" method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.date() }}
+        <input type="submit" value="Получить данные">
+    </form>
+    {% for date in dates %}
+    <a href="/{{ date }}">{{ date }}</a> <br>
+
+    {% endfor %}
+</div>
+
+</body>
+
+</html>

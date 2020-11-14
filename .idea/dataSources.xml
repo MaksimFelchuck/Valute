@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="app" uuid="6f1e5f94-fee1-440d-af23-139cfb0aa9ef">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\felch\Desktop\courses\app.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="courses" uuid="c410cfae-61d3-428e-b117-f4eb6a84eed6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\felch\Desktop\courses\courses.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
